@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>T.L. Hine</title>
+    <meta name="description" content="">
+    <meta name="msapplication-tap-highlight" content="yes" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Google Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!--  Bootstrap 3-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- OWL Slider -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+
+    <!-- Web Icons Font -->
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css/iconmoon.css">
+    <link rel="stylesheet" href="css/et-line.css">
+
+    <!-- Tabs -->
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+
+    <!-- Costum Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Favicon -->
+    <!-- <link rel="icon" type="image/ico" href="favicon.ico"> -->
+
+    <!-- Modernizer & Respond js -->
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <div class="preloader">
+        <span class="load"></span>
+    </div>
+    <!--popout menu-->
+    <div class="menu-wrap">
+        <div class="menu-content">
+            <div class="container">
+                <div class="row">
+                    <div class="navigation"> 
+                        <!-- <span class="pe-7s-left-arrow close-menu" id="close-button"></span> -->
+                        <div class="menu-logo hidden-xs">
+                            <!-- <img src="img/menu_logo.png" alt="logo" /> -->
+                            <h1 class='menu__title-text'>T.L. Hine</h1>
+                            <h2 class="menu__title-subtext">Composer & Performer</h2>
+                        </div>
+                    </div>  
+                    <div class="col-md-8 col-md-offset-2 col-xs-12">
+                        <div class="col-md-6 col-sm-6">
+                            <nav class="menu">
+                                <div class="menu-list">
+                                    <ul>
+                                        <li class="trigger-sub-nav"><a href="index.html">Home</a>
+                                            <!-- <ul class="subnav">
+                                                <li><a href="index.html">- Masonry</a></li>
+                                                <li><a href="index-3column.html">- 3 Column</a></li>
+                                                <li><a href="index-4column.html">- 4 Column</a></li>
+                                            </ul> -->
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <!-- <li class="trigger-sub-nav"><a href="#">Blog</a>
+                                            <ul class="subnav">
+                                                <li><a href="blog-masonry.html">- Masonry</a></li>
+                                                <li><a href="blog-3column.html">- 3 Column</a></li>
+                                            </ul>
+                                        </li> -->
+                                        <li><a href="works.html">Works</a></li>
+                                        <li><a href="performance.html">Performance</a></li>
+                                        <li><a href="media.html">Watch & Listen</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 col-sm-6 hidden-xs">
+                            <div class="menu-contact-information">
+                                <span class="menu-email"><a href='mailto:tlhine@tlhine.com'>tlhine@tlhine.com</a></span>
+                                <!-- <span class="menu-tel">Tel: +011 136 8452<br /> +031 136 8452</span> -->
+                                <span class="menu-address">West Hartford<br/> Connecticut</span>
+                                <!-- Get social media links -->
+                                <div class="menu-social-icons">
+                                    <ul>
+                                        <li><a href="#"><span class="iconmoon-facebook"></span></a></li>
+                                        <li><a href="#"><span class="iconmoon-twitter"></span></a></li>
+                                        <li><a href="#"><span class="iconmoon-linkedin2"></span></a></li>
+                                        <li><a href="#"><span class="iconmoon-dribbble"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header-->
+    <div class="header">
+        <div class="container">
+            <div class="header__title-container">
+                <a href="index.html">
+                    <!-- <img src="img/logo.png" alt="logo" /> -->
+                    <h1 class='header__title-text'>T.L. Hine</h1>
+                    <h2 class="header__title-subtext">Composer & Performer</h2>
+                </a>
+            </div>
+            <div class="header__menu-container">
+                <button class="main-menu-indicator" id="open-button">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Masonry portfolio -->
+    <div class="container">
+        <div class="row">
+            <div class="portfolio-wrapper">
+                <div class="works-filter">
+                    <a href="javascript:void(0)" class="filter active" data-filter="mix">All</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="instrumental">Instrumental</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="choral">Choral</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="handbells">Handbells</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="free">Free</a>
+                </div>
+                <div id="work-grid" class="js-masonry">
+                    <!-- Begin of Thumbs Portfolio -->
+                
+                    <!-- Instrumental works -->
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_5.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">...and then it happened...</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Large (6+)</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_8.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">Nocturn</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Large (6+)</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_11.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">Mirror Toccatta</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Large 6+</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_9.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">A Short Meditation on "Guide My Feet"</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Piano Solo</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_10.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">To a Child Dancing in the Wind</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">High Voice & Piano</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">Three Miniatures</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Piano Solo</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">Infinite Regress</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Saxophone Quartet</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">Archetype</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Piano Solo</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">Bup Bop Bup</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Bassoon Quartet</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">Latitude</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Small (1 - 6)</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix instrumental">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="instrumental-works.html">
+                                            <span class="project-name">Invocation & Dance</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Small (1 - 6)</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <!-- Choral works -->
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">Lo The Earth Awakens Again</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">Dark Hills</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">Luciat Eis</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">The Luminous World</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">In monte Oliveti</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">Tu Es Petrus</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">Sanctus from <em>Requiem</em></span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">Schultzst&uuml;ck</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">Now Sleep the Crimson Petal</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">This is my Symphony</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">3 Amens</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">Let the Life I Lead (Irish Folk Song)</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Arrangement</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">Panis Angelicus (Saint-Saens)</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Arrangement</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">Wonderous Love (from <em>The Southern Harmony</em>)</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Arrangement</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choral">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="choral-works.html">
+                                            <span class="project-name">3 Descants (NUN DANKET, LANCASHIRE, KREMSER)</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Arrangement</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <!-- Need lead sheet arrangments of hymn tunes info -->
+                     <!-- Handbells -->
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix choir handbells">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="single-project.html">
+                                            <span class="project-name">A Short Reverie</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Original</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix handbells">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="handbell-works.html">
+                                            <span class="project-name">Charlestown (from <em>The Southern Harmony</em>)</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Arrangment</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix handbells">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="handbell-works.html">
+                                            <span class="project-name">“How Can I Keep From Ringing”</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Arrangment</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix handbells">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="handbell-works.html">
+                                            <span class="project-name">"Musette" (Ravel)</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Arrangment</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix handbells">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="handbell-works.html">
+                                            <span class="project-name">“Over There” (Cohan)</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Arrangment</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix handbells">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="handbell-works.html">
+                                            <span class="project-name">“Sous les D&ocirc;me” (Delibes)</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Arrangment</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-3 col-xs-12 mix handbells">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="handbell-works.html">
+                                            <span class="project-name">Four Arrangements for Two Octaves of Handbells or Chimes</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                    <!-- End  of Thumbs Portfolio -->
+                </div>
+                <!-- <div class="load-more">
+                    <a href="javascript:void(0)" id="load-more">LOAD MORE</a>
+                    <div class="load-portfolio">
+                      <div class="loading">
+                        <span class="ball1"></span>
+                        <span class="ball2"></span>
+                      </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-content">
+                    <div class="social-media">
+                        <!-- Get social media -->
+                        <ul>
+                            <li><a href="#">FACEBOOK</a></li>
+                            <li><a href="#">TWITTER</a></li>
+                            <li><a href="#">LINKEDIN</a></li>
+                            <li><a href="#">DRIBBBLE</a></li>
+                            <li><a href="#">FLICKR</a></li>
+                            <li><a href="#">GOOGLE+</a></li>
+                        </ul>
+                    </div>
+                    <!-- <p>2015 © ARABELLA Portfolio Template. All rights Reserved.</p> -->
+                </div>
+                <!-- <span class="move-top">
+                    <a href="#top"><i class="pe-7s-angle-up"></i></a>
+                </span> -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/waypoints.min.js"></script>
+    <script src="js/vendor/jquery.counterup.min.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/tabs.js"></script>
+    <script src="js/arabella.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>T.L. Hine</title>
+    <meta name="description" content="">
+    <meta name="msapplication-tap-highlight" content="yes" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Google Web Font -->
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!--  Bootstrap 3-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- OWL Slider -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+
+    <!-- Web Icons Font -->
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="css/iconmoon.css">
+    <link rel="stylesheet" href="css/et-line.css">
+
+    <!-- Tabs -->
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+
+    <!-- Costum Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Favicon -->
+    <!-- <link rel="icon" type="image/ico" href="favicon.ico"> -->
+
+    <!-- Modernizer & Respond js -->
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <div class="preloader">
+        <span class="load"></span>
+    </div>
+    <!--popout menu-->
+    <div class="menu-wrap">
+        <div class="menu-content">
+            <div class="container">
+                <div class="row">
+                    <div class="navigation"> 
+                        <!-- <span class="pe-7s-left-arrow close-menu" id="close-button"></span> -->
+                        <div class="menu-logo hidden-xs">
+                            <!-- <img src="img/menu_logo.png" alt="logo" /> -->
+                            <h1 class='menu__title-text'>T.L. Hine</h1>
+                            <h2 class="menu__title-subtext">Composer & Performer</h2>
+                        </div>
+                    </div>  
+                    <div class="col-md-8 col-md-offset-2 col-xs-12">
+                        <div class="col-md-6 col-sm-6">
+                            <nav class="menu">
+                                <div class="menu-list">
+                                    <ul>
+                                        <li><a href="index.html">Home</a>
+                                            <!-- <ul class="subnav">
+                                                <li><a href="index.html">- Masonry</a></li>
+                                                <li><a href="index-3column.html">- 3 Column</a></li>
+                                                <li><a href="index-4column.html">- 4 Column</a></li>
+                                            </ul> -->
+                                        </li>
+                                        <li><a href="about.html">About</a></li>
+                                        <!-- <li class="trigger-sub-nav"><a href="#">Blog</a>
+                                            <ul class="subnav">
+                                                <li><a href="blog-masonry.html">- Masonry</a></li>
+                                                <li><a href="blog-3column.html">- 3 Column</a></li>
+                                            </ul>
+                                        </li> -->
+                                        <li><a href="works.html">Works</a></li>
+                                        <li><a href="performance.html">Performance</a></li>
+                                        <li><a href="media.html">Watch & Listen</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="col-md-6 col-sm-6 hidden-xs">
+                            <div class="menu-contact-information">
+                                <span class="menu-email"><a href='mailto:tlhine@tlhine.com'>tlhine@tlhine.com</a></span>
+                                <!-- <span class="menu-tel">Tel: +011 136 8452<br /> +031 136 8452</span> -->
+                                <span class="menu-address">West Hartford<br/> Connecticut</span>
+                                <!-- Get social media links -->
+                                <div class="menu-social-icons">
+                                    <ul>
+                                        <li><a href="#"><span class="iconmoon-facebook"></span></a></li>
+                                        <li><a href="#"><span class="iconmoon-twitter"></span></a></li>
+                                        <li><a href="#"><span class="iconmoon-linkedin2"></span></a></li>
+                                        <li><a href="#"><span class="iconmoon-dribbble"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Header-->
+    <div class="header">
+        <div class="container">
+            <div class="header__title-container">
+                <a href="index.html">
+                    <!-- <img src="img/logo.png" alt="logo" /> -->
+                    <h1 class='header__title-text'>T.L. Hine</h1>
+                    <h2 class="header__title-subtext">Composer & Performer</h2>
+                </a>
+            </div>
+            <div class="header__menu-container">
+                <button class="main-menu-indicator" id="open-button">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Masonry portfolio -->
+    <div class="container">
+        <div class="row">
+            <div class="portfolio-wrapper">
+                <!-- <div class="works-filter">
+                    <a href="javascript:void(0)" class="filter active" data-filter="mix">All</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="branding">Branding</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="web">Web</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="art">Art</a>
+                    <a href="javascript:void(0)" class="filter" data-filter="logos">Logo</a>
+                </div> -->
+                <div id="work-grid" class="js-masonry">
+                    <!-- Begin of Thumbs Portfolio -->
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix branding">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_1.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="about.html">
+                                            <span class="project-name">About</span>
+                                            <!-- <hr class="split-line">
+                                            <span class="category-description">Bio & Resume</span> -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix web">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_2.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="works.html">
+                                            <span class="project-name">Works</span>
+                                            <!-- <hr class="split-line">
+                                            <span class="category-description">Compositions</span> -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix art">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_3.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="performance.html">
+                                            <span class="project-name">Performance</span>
+                                            <!-- <hr class="split-line">
+                                            <span class="category-description">Branding Design</span> -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix logos">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_4.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="media.html">
+                                            <span class="project-name">Listen & Watch</span>
+                                            <!-- <hr class="split-line">
+                                            <span class="category-description">Branding Design</span> -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix logos">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_6.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="services.html">
+                                            <span class="project-name">Services</span>
+                                            <!-- <hr class="split-line">
+                                            <span class="category-description">Branding Design</span> -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix branding">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_7.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="contact.html">
+                                            <span class="project-name">Contact</span>
+                                            <!-- <hr class="split-line">
+                                            <span class="category-description">Branding Design</span> -->
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-3 col-sm-3 col-xs-12 mix art">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_5.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="single-project.html">
+                                            <span class="project-name">PROJECT NAME</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Branding Design</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix branding">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_8.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="single-project.html">
+                                            <span class="project-name">PROJECT NAME</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Branding Design</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix branding">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_11.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="single-project.html">
+                                            <span class="project-name">PROJECT NAME</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Branding Design</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix art">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_9.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="single-project.html">
+                                            <span class="project-name">PROJECT NAME</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Branding Design</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix branding">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_10.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="single-project.html">
+                                            <span class="project-name">PROJECT NAME</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Branding Design</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-12 mix logos">
+                        <div class="img masonry-height">
+                            <img src="img/portfolio/image_12.jpg" alt="Portfolio Item">
+                            <div class="hover-overlay">
+                                <div class="hover-overlay-inner">
+                                    <div class="overlay-view">
+                                        <a href="single-project.html">
+                                            <span class="project-name">PROJECT NAME</span>
+                                            <hr class="split-line">
+                                            <span class="category-description">Branding Design</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>-->
+                    <!-- End  of Thumbs Portfolio -->
+                </div>
+                <!-- <div class="load-more">
+                    <a href="javascript:void(0)" id="load-more">LOAD MORE</a>
+                    <div class="load-portfolio">
+                      <div class="loading">
+                        <span class="ball1"></span>
+                        <span class="ball2"></span>
+                      </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-content">
+                    <div class="social-media">
+                        <!-- Get social media -->
+                        <ul>
+                            <li><a href="#">FACEBOOK</a></li>
+                            <li><a href="#">TWITTER</a></li>
+                            <li><a href="#">LINKEDIN</a></li>
+                            <li><a href="#">DRIBBBLE</a></li>
+                            <li><a href="#">FLICKR</a></li>
+                            <li><a href="#">GOOGLE+</a></li>
+                        </ul>
+                    </div>
+                    <!-- <p>2015 © ARABELLA Portfolio Template. All rights Reserved.</p> -->
+                </div>
+                <!-- <span class="move-top">
+                    <a href="#top"><i class="pe-7s-angle-up"></i></a>
+                </span> -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/waypoints.min.js"></script>
+    <script src="js/vendor/jquery.counterup.min.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/tabs.js"></script>
+    <script src="js/arabella.js"></script>
+</body>
+
+</html>
