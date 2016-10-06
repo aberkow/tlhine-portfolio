@@ -1,5 +1,10 @@
 "use strict";
 
+const classie = require('./vendor/classie.js');
+const jQuery = require('./vendor/jquery-1.11.2.min.js');
+const owlCarousel = require('./vendor/owl.carousel.min.js');
+
+
 jQuery(document).ready(function($) {
 
     //Tabs About
@@ -10,7 +15,7 @@ jQuery(document).ready(function($) {
     };
     Tabs();
 
-    //Menu Navigation 
+    //Menu Navigation
     function Navigation() {
 
         var bodyEl = document.body,
@@ -253,7 +258,7 @@ jQuery(window).load(function($) {
             }).fail(function() {
                 self.text('Error while loading!');
             });
-        });        
+        });
 
 
 

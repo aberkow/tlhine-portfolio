@@ -1,0 +1,46 @@
+{
+  "name": "tlhine-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for Ted Hine",
+  "main": "./js/arabella.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aberkow/tlhine-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aberkow/tlhine-portfolio/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^6.16.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.25.0",
+    "del": "^2.2.2",
+    "extract-css-block-webpack-plugin": "^1.3.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sequence": "^0.4.6",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "node-bourbon": "^4.2.8",
+    "node-neat": "^1.7.2",
+    "node-sass": "^3.10.0",
+    "require-dir": "^0.3.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "homepage": "https://github.com/aberkow/tlhine-portfolio#readme"
+}
