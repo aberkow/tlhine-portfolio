@@ -1,8 +1,8 @@
 "use strict";
 
-const classie = require('./vendor/classie.js');
-const jQuery = require('./vendor/jquery-1.11.2.min.js');
-const owlCarousel = require('./vendor/owl.carousel.min.js');
+// const classie = require('./vendor/classie.js');
+// const jQuery = require('./vendor/jquery-1.11.2.min.js');
+// const owlCarousel = require('./vendor/owl.carousel.min.js');
 
 
 jQuery(document).ready(function($) {

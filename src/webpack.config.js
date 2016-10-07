@@ -3,9 +3,9 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    arabella: path.resolve(__dirname, './js/arabella.js'),
+    //arabella: path.resolve(__dirname, './js/arabella.js'),
     stylesheet: path.resolve(__dirname, './js/stylesheet.js'),
-    vendors: path.resolve(__dirname, './js/vendors.js')
+    //vendors: path.resolve(__dirname, './js/vendors.js')
   },
   output: {
     path: path.resolve(__dirname, 'build'),
