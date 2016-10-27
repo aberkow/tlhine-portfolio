@@ -10,7 +10,7 @@ jQuery(document).ready(function($) {
     };
     Tabs();
 
-    //Menu Navigation 
+    //Menu Navigation
     function Navigation() {
 
         var bodyEl = document.body,
@@ -181,11 +181,13 @@ jQuery(window).load(function($) {
         });
     };
 
-    /*Init Portfolio*/
-    var container = jQuery("#work-grid");
+    /*Init Portfolio or filterable links*/
+    var workGrid = jQuery("#work-grid");
+    var filterableContent = jQuery("#filterable-content");
 
-    if (container.length > 0) {
-        container.isotope({
+
+    if (workGrid.length > 0) {
+        workGrid.isotope({
             layoutMode: 'masonry',
             transitionDuration: '0.7s',
             columnWidth: 60
@@ -205,7 +207,7 @@ jQuery(window).load(function($) {
                     itemCount: itemLoad
                 }
             }).done(function(data) {
-                container.isotope('insert', jQuery(data));
+                workGrid.isotope('insert', jQuery(data));
                 jQuery('.load-portfolio').css('display', 'none');
                 self.show();
             }).fail(function() {
@@ -226,7 +228,7 @@ jQuery(window).load(function($) {
                     itemCount: itemLoad
                 }
             }).done(function(data) {
-                container.isotope('insert', jQuery(data));
+                workGrid.isotope('insert', jQuery(data));
                 jQuery('.load-portfolio').css('display', 'none');
                 self.show();
             }).fail(function() {
@@ -247,13 +249,13 @@ jQuery(window).load(function($) {
                     itemCount: itemLoad
                 }
             }).done(function(data) {
-                container.isotope('insert', jQuery(data));
+                workGrid.isotope('insert', jQuery(data));
                 jQuery('.load-portfolio').css('display', 'none');
                 self.show();
             }).fail(function() {
                 self.text('Error while loading!');
             });
-        });        
+        });
 
 
 
@@ -263,11 +265,19 @@ jQuery(window).load(function($) {
     jQuery('a.filter').click(function() {
         var to_filter = jQuery(this).attr('data-filter');
         if (to_filter == 'all') {
-            container.isotope({
+          console.log('all');
+            workGrid.isotope({
+                filter: '.mix'
+            });
+            filterableContent.isotope({
                 filter: '.mix'
             });
         } else {
-            container.isotope({
+          console.log('filter');
+            workGrid.isotope({
+                filter: '.' + to_filter
+            });
+            filterableContent.isotope({
                 filter: '.' + to_filter
             });
         }

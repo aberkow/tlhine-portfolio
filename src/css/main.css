@@ -22,6 +22,7 @@
     /* =Single Blog
     /* =Contact
     /* =Footer
+    /* =Custom
 --------------------------------------------------------------
 
 
@@ -32,7 +33,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
 body {
-    overflow-x:hidden !important; 
+    overflow-x:hidden !important;
     background: #f2f2f2;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -78,21 +79,21 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
-a, a:visited { 
-    font-weight: 400; 
-    text-decoration: none; 
+a, a:visited {
+    font-weight: 400;
+    text-decoration: none;
 }
 
-em { 
-    font-style: italic; 
+em {
+    font-style: italic;
 }
 
-strong { 
-    font-weight: 700; 
+strong {
+    font-weight: 700;
 }
 
-small { 
-    font-size: 0.8em; 
+small {
+    font-size: 0.8em;
 }
 
 p {
@@ -250,7 +251,7 @@ ul.sublist{
 }
 
 .second-title{
-    padding: 100px 0 90px 0; 
+    padding: 100px 0 90px 0;
 }
 
 .second-title h1{
@@ -366,23 +367,23 @@ ul.sublist{
     -webkit-animation: typing 1s linear infinite alternate;
        -moz-animation: Typing 1s linear infinite alternate;
             animation: typing 1s linear infinite alternate;
-    margin: 46px auto; /* Not necessary- its only for layouting*/  
+    margin: 46px auto; /* Not necessary- its only for layouting*/
     position: relative;
     left: -12px;
 }
 @-webkit-keyframes typing{
     0%{
         background-color: rgba(129,212,250, 1);
-        box-shadow: 12px 0px 0px 0px rgba(129,212,250,0.4), 
+        box-shadow: 12px 0px 0px 0px rgba(129,212,250,0.4),
                     24px 0px 0px 0px rgba(129,212,250,0.4);
       }
-    25%{ 
+    25%{
         background-color: rgba(129,212,250, 0.6);
-        box-shadow: 12px 0px 0px 0px rgba(129,212,250,4), 
+        box-shadow: 12px 0px 0px 0px rgba(129,212,250,4),
                     24px 0px 0px 0px rgba(129,212,250,0.4);
     }
     75%{ background-color: rgba(255,255,255, 0.6);
-        box-shadow: 12px 0px 0px 0px rgba(129,212,250,0.4), 
+        box-shadow: 12px 0px 0px 0px rgba(129,212,250,0.4),
                     24px 0px 0px 0px rgba(129,212,250,1);
       }
 }
@@ -406,9 +407,9 @@ ul.sublist{
 }
 
 /*.header__title {
-    font-size: 
+    font-size:
 }*/
-/* =Menu 
+/* =Menu
 -------------------------------------------------------------- */
 
 .navigation{
@@ -540,7 +541,7 @@ ul.sublist{
     transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 }
 
-.menu, 
+.menu,
 .menu-list {
     height: 100%;
 }
@@ -556,7 +557,7 @@ ul.sublist{
     left: 0;
     right: 0;
     margin-left:auto;
-    margin-right: auto; 
+    margin-right: auto;
     text-align: center;
 }*/
 
@@ -653,7 +654,7 @@ ul.sublist{
     transform: translate3d(0,3000px,0);
 }
 
-.menu-list ul li a {    
+.menu-list ul li a {
     font-family: "Montserrat", Sans-serif;
     font-weight: 900;
     font-size: 30px;
@@ -799,13 +800,13 @@ ul.subnav li a{
 .portfolio-wrapper{
     clear: both;
 }
-.works-filter{
+.works-filter, .about-filter{
     height: 220px;
     display: table;
     margin-left: 10px;
 }
 
-.works-filter a{
+.works-filter a, .about-filter a{
     display: table-cell;
     vertical-align: middle;
     font-size: 24px;
@@ -815,18 +816,18 @@ ul.subnav li a{
     font-weight: 400;
 }
 
-.works-filter a.active{
+.works-filter a.active, .about-filter a.active{
     color: #56c8d4;
 }
 
-.works-filter a:before{
+.works-filter a:before, .about-filter a:before{
     content: " / ";
     padding-right: 5px;
     padding-left: 5px;
     color: #111111;
 }
 
-.works-filter a:first-child:before{
+.works-filter a:first-child:before, .about-filter a:first-child:before{
     content: "  ";
     padding-right: 5px;
     padding-left: 5px;
@@ -941,7 +942,7 @@ ul.subnav li a{
 .overlay-view span{
     display: block;
     text-align: center;
-    
+
 }
 .overlay-view span:hover{
  -webkit-transition: all 200ms ease-in-out 0;
@@ -965,8 +966,8 @@ ul.subnav li a{
 
 .load-more a{
     text-decoration: none;
-    letter-spacing: 2.5px; 
-    color: #111111; 
+    letter-spacing: 2.5px;
+    color: #111111;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
@@ -1077,10 +1078,14 @@ a#load-more.loading {
     line-height: 31px;
 }
 
-.content-descriptin span{
+.content-description span{
     background: #f6ee53;
     line-height: 25px;
     padding: 5px 3px;
+}
+
+.content-description-subheader {
+  padding-top: 2rem;
 }
 
 .half-part {
@@ -1105,7 +1110,7 @@ a#load-more.loading {
 
 /* Content Color Background */
 .bg-yellow{
-    background-color: #ffd180; 
+    background-color: #ffd180;
 }
 
 .bg-gray{
@@ -1193,7 +1198,7 @@ a#load-more.loading {
 /* Team */
 
 #team.owl-carousel{
-    padding:0 
+    padding:0
 }
 
 #team .owl-controls{
@@ -1215,7 +1220,7 @@ a#load-more.loading {
     position: relative;
 }
 
-.member-overlay{ 
+.member-overlay{
     display: table;
     opacity: 0;
     width: calc(100% - 40px);
@@ -1298,7 +1303,7 @@ a#load-more.loading {
     line-height: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    
+
 }
 
 .member-social ul li a{
@@ -1307,7 +1312,7 @@ a#load-more.loading {
 }
 
 .member-social ul li a:hover{
-    color: #56c8d4;  
+    color: #56c8d4;
 }
 
 .member-social ul li{
@@ -1448,7 +1453,7 @@ a#load-more.loading {
     height: 25px;
     border: 1px solid #fff;
     display: inline-block;
-    text-align: center;    
+    text-align: center;
     cursor: pointer;
 }
 
@@ -1497,7 +1502,7 @@ a#load-more.loading {
     height: 25px;
     border: 1px solid #fff;
     display: inline-block;
-    text-align: center;    
+    text-align: center;
     cursor: pointer;
 }
 
@@ -1582,7 +1587,7 @@ a#load-more.loading {
 }
 
 i.right{
-    float: right; 
+    float: right;
 }
 
 i.left{
@@ -1736,8 +1741,8 @@ i.left{
 .read-more a{
     font-size: 12px;
     text-decoration: none;
-    letter-spacing: 2.5px; 
-    color: #111111; 
+    letter-spacing: 2.5px;
+    color: #111111;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
@@ -1887,11 +1892,11 @@ i.left{
     clear: both;
 }
 
-.comment-replay a{ 
+.comment-replay a{
     color: #111111
 }
 
-.comment-replay a:hover{ 
+.comment-replay a:hover{
     color: #56c8d4
 }
 
@@ -2002,7 +2007,7 @@ footer{
     height: 300px;
     width: 100%;
     max-width: 1170px;
-  
+
 }
 .footer-content{
     display: table-cell;
@@ -2066,4 +2071,14 @@ footer{
 
 .move-top:hover{
     opacity: 1;
+}
+/* Custom
+---------------------------------- */
+/*.service__container-image {
+  float: left;
+}
+*/
+
+.service__text {
+  padding: 0;
 }
