@@ -800,13 +800,16 @@ ul.subnav li a{
 .portfolio-wrapper{
     clear: both;
 }
-.works-filter, .about-filter{
+.content-filter{
     height: 220px;
     display: table;
     margin-left: 10px;
 }
 
-.works-filter a, .about-filter a{
+/* enable filter on about page
+had been works-filter and about-filter
+*/
+.content-filter a{
     display: table-cell;
     vertical-align: middle;
     font-size: 24px;
@@ -816,18 +819,18 @@ ul.subnav li a{
     font-weight: 400;
 }
 
-.works-filter a.active, .about-filter a.active{
+.content-filter a.active{
     color: #56c8d4;
 }
 
-.works-filter a:before, .about-filter a:before{
+.content-filter a:before{
     content: " / ";
     padding-right: 5px;
     padding-left: 5px;
     color: #111111;
 }
 
-.works-filter a:first-child:before, .about-filter a:first-child:before{
+.content-filter a:first-child:before{
     content: "  ";
     padding-right: 5px;
     padding-left: 5px;
@@ -1519,6 +1522,10 @@ a#load-more.loading {
     width: 20px;
 }
 
+.content-detail-wrapper {
+  clear: both;
+}
+
 .portfolio-tags{
     padding: 50px 0 0;
 }
@@ -2082,3 +2089,7 @@ footer{
 .service__text {
   padding: 0;
 }
+
+/*audio::-webkit-media-controls-play-button {
+  color: red;
+}*/
