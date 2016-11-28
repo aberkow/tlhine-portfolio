@@ -28,7 +28,7 @@
     <link rel="stylesheet" type="text/css" href="css/tabs.css" />
     <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
 
-    <!-- Costum Styles -->
+    <!-- Custom Styles -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
 
@@ -119,23 +119,50 @@
             <div class="row">
                 <h3>Large Ensembles (6+)</h3>
                 <br><br>
-                <div class="col-md-9">
-                    <h4>...and then it happened...</h4>
-                    <hr>
-                    <div class="content-detail-wrapper">
-                      <audio src="audio/and-then-it-happened-middle.mp3" controls class="content-detail-audio"></audio>
-                      <p>Description, price, and first page</p>
-                    </div>
+                <div class="col-md-9 repertoire-container">
+                  <h4>...and then it happened...</h4>
+                  <hr>
+                  <div class="col-md-9 col-sm-9 col-xs-12">
+                    <p>
+                      This is a description of Ted's piece! It's amazing! Look at how great it is! And <em>so</em> reasonably priced.
+                    </p>
+                    <button type="button" data-toggle="modal" data-target="#atih-modal" class="btn btn-primary btn-large">
+                      Preview
+                    </button>
+                  </div>
 
+                  <!-- begin modal for preview -->
+                  <div class="modal fade" id="atih-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close" name="button"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="atih-modal-title">...And Then It Happened...</h4>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/works-samples/atih.png" alt="and then it happened preview" class="img-responsive" style="min-width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button class="btn btn-default" type="button" name="button" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end modal for preview -->
 
                 </div>
-                <div class="col-md-9">
+
+                <div class="col-md-9 repertoire-container">
                     <h4>Nocturne</h4>
                     <hr>
+
                     <p>Description, price, and first page</p>
 
                 </div>
-                <div class="col-md-9">
+                <!-- <div class="col-md-3 col-sm-3 col-xs-12">
+                  <img src="img/works-samples/3-amens.png" alt="...And Then It Happened... Preview" class="img-responsive">
+                </div> -->
+                <div class="col-md-9 repertoire-container">
                     <h4>Mirror Toccatta</h4>
                     <hr>
                     <p>Description, price, and first page</p>
@@ -147,42 +174,42 @@
             <div class="row">
                 <h3>Small Ensembles & Solos (1 - 6)</h3>
                 <br><br>
-                <div class="col-md-9">
+                <div class="col-md-9 repertoire-container">
                     <h4>A Short Meditation on “Guide My Feet” (piano)</h4>
                     <hr>
                     <p>Description, price, and first page</p>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 repertoire-container">
                     <h4>To A Child Dancing in the Wind (high voice & piano)</h4>
                     <hr>
                     <p>Description, price, and first page</p>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 repertoire-container">
                     <h4>Three Miniatures (piano)</h4>
                     <hr>
                     <p>Description, price, and first page</p>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 repertoire-container">
                     <h4>Infinite Regress (saxophone quartet)</h4>
                     <hr>
                     <p>Description, price, and first page</p>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 repertoire-container">
                     <h4>Archetype (piano)</h4>
                     <hr>
                     <p>Description, price, and first page</p>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 repertoire-container">
                     <h4>Bup Bop Bup (bassoon quartet)</h4>
                     <hr>
                     <p>Description, price, and first page</p>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 repertoire-container">
                     <h4>Latitude</h4>
                     <hr>
                     <p>Description, price, and first page</p>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 repertoire-container">
                     <h4>Invocation & Dance</h4>
                     <hr>
                     <p>Description, price, and first page</p>

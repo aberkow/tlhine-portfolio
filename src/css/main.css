@@ -2090,6 +2090,11 @@ footer{
   padding: 0;
 }
 
+.repertoire-container {
+  margin: 1rem;
+  padding: 0;
+}
+
 /*audio::-webkit-media-controls-play-button {
   color: red;
 }*/
